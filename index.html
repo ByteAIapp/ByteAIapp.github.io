@@ -1,32 +1,134 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Light Blue One-Page Website Template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Light Blue One-Page Website Template</h1>
-  </header>
-  <section id="home">
-    <h2>Home</h2>
-    <p>This is the home page of the light blue one-page website template. It includes a header, a section for the home page, and a footer.</p>
-  </section>
-  <section id="about">
-    <h2>About</h2>
-    <p>This is the about page of the light blue one-page website template. It includes information about the website and its creator.</p>
-  </section>
-  <section id="products">
-    <h2>Products</h2>
-    <p>This is the products section of the light blue one-page website template. It includes a list of products that are available for purchase.</p>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>This is the contact page of the light blue one-page website template. It includes information on how to contact the website's creator.</p>
-  </section>
-  <footer>
-    <p>Copyright &copy; 2023 Bard</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>ByteAI - iOS App Development Company</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #00a8e8;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin: 0;
+      }
+
+      nav {
+        display: flex;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav li {
+        margin-left: 20px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      section {
+        padding: 50px 20px;
+      }
+
+      section:first-of-type {
+        background-color: #f0f0f0;
+      }
+
+      section:last-of-type {
+        background-color: #ccc;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      footer a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ByteAI</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>ByteAI is an iOS app development company that specializes in creating innovative and engaging apps for our clients. Our team of experienced developers and designers work together to create high-quality apps that meet the needs and expectations of our clients.</p>
+    </section>
+
+    <section id="products">
+      <h2>Products</h2>
+      <p>At ByteAI, we offer a range of iOS app development services to help our clients bring their ideas to life. Some of our services include:</p>
+      <ul>
+        <li>iOS app development</li>
+        <li>App design</li>
+        <li>App maintenance and support</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions or would like to learn more about our iOS app development services, please don't hesitate to get in touch:</p>
+      <ul>
+        <li>Email: info@byteai.com</li>
+        <li>Phone: 555-555-555
+      </ul>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 ByteAI. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+  </body>
 </html>
